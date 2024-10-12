@@ -1,0 +1,24 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@divy/sdl2@*": "0.14.0",
+    "npm:pngjs@*": "7.0.0"
+  },
+  "jsr": {
+    "@divy/sdl2@0.14.0": {
+      "integrity": "01347d34dd12cabd972eec340a142cdc6176f9e2720a72ab3515f73cf9d27bad"
+    }
+  },
+  "npm": {
+    "pngjs@7.0.0": {
+      "integrity": "sha512-LKWqWJRhstyYo9pGvgor/ivk2w94eSjE3RGVuzLGlr3NmD8bf7RcYGze1mNdEHRP6TRP6rMuDHk5t44hnTRyow=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@divy/sdl2@0.14",
+      "jsr:@std/webgpu@~0.224.7",
+      "npm:pngjs@7"
+    ]
+  }
+}

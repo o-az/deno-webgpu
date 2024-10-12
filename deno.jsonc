@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "gib": "deno run --allow-all --env main.ts"
+  },
+  "imports": {
+    "@divy/sdl2": "jsr:@divy/sdl2@^0.14.0",
+    "@std/webgpu": "jsr:@std/webgpu@^0.224.7",
+    "pngjs": "npm:pngjs@^7.0.0"
+  },
+  "unstable": [
+    "ffi",
+    "webgpu"
+  ]
+}
